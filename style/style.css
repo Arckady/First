@@ -1,0 +1,384 @@
+body {
+  margin: 0 0;
+}
+body .bg-container {
+  position: absolute;
+  opacity: .3;
+  left: 50%;
+  margin-left: -1000px;
+  z-index: 2;
+}
+body .container {
+  width: 1170px;
+  margin: 0 auto;
+  min-height: inherit;
+}
+body header {
+  background: #333;
+  min-height: 280px;
+}
+body header .container {
+  background: #444;
+}
+body header .container .blc1 {
+  background: #555;
+  min-height: inherit;
+}
+body header .container .blc2 {
+  background: #666;
+  min-height: inherit;
+}
+body header .container .blc3 {
+  background: #777;
+  min-height: inherit;
+}
+body .content .block_1 {
+  background: #999;
+  min-height: 1080px;
+}
+body .content .block_1 .container {
+  background: #aaa;
+}
+body .content .block_1 .container .blc1 {
+  background: #bbb;
+  min-height: 840px;
+}
+body .content .block_1 .container .blc2 {
+  background: #ccc;
+  min-height: 840px;
+}
+body .content .block_1 .container .blc3 {
+  background: #ddd;
+  min-height: 240px;
+}
+body .content .block_2 {
+  background: #222;
+  min-height: 1480px;
+}
+body .content .block_2 .container {
+  background: #333;
+}
+body .content .block_2 .container .blc1 {
+  background: #444;
+  min-height: 220px;
+}
+body .content .block_2 .container .blc2 {
+  background: #555;
+  min-height: 740px;
+}
+body .content .block_2 .container .blc3 {
+  background: #666;
+  min-height: 520px;
+}
+body .content .block_2 .container .blc4 {
+  background: #777;
+  min-height: 520px;
+}
+body .content .block_3 {
+  background: #888;
+  min-height: 630px;
+}
+body .content .block_3 .container {
+  background: #999;
+}
+body .content .block_3 .container .blc1 {
+  min-height: inherit;
+}
+body .content .block_4 {
+  background: #222;
+  min-height: 980px;
+}
+body .content .block_4 .container {
+  background: #333;
+}
+body .content .block_4 .container .blc1 {
+  background: #444;
+  min-height: 250px;
+}
+body .content .block_4 .container .blc2 {
+  background: #555;
+  min-height: 560px;
+}
+body .content .block_4 .container .blc3 {
+  background: #666;
+  min-height: 170px;
+}
+body .content .block_5 {
+  background: #777;
+  min-height: 880px;
+}
+body .content .block_5 .container {
+  background: #888;
+}
+body .content .block_5 .container .blc1 {
+  background: #999;
+  min-height: 480px;
+}
+body .content .block_5 .container .blc2 {
+  background: #aaa;
+  min-height: 400px;
+}
+body .content .block_6 {
+  background: #222;
+  min-height: 1500px;
+}
+body .content .block_6 .container {
+  background: #333;
+}
+body .content .block_6 .container .blc1 {
+  background: #444;
+  min-height: 340px;
+}
+body .content .block_6 .container .blc2 {
+  background: #555;
+  min-height: 450px;
+}
+body .content .block_6 .container .blc3 {
+  background: #666;
+  min-height: 710px;
+}
+body .content .block_7 {
+  background: #777;
+  min-height: 750px;
+}
+body .content .block_7 .container {
+  background: #888;
+}
+body .content .block_7 .container .blc1 {
+  background: #999;
+  min-height: inherit;
+}
+body .content .block_8 {
+  background: #222;
+  min-height: 900px;
+}
+body .content .block_8 .container {
+  background: #333;
+}
+body .content .block_8 .container .blc1 {
+  background: #444;
+  min-height: 340px;
+}
+body .content .block_8 .container .blc2 {
+  background: #555;
+  min-height: 170px;
+}
+body .content .block_8 .container .blc3 {
+  background: #777;
+  min-height: 170px;
+}
+body .content .block_8 .container .blc4 {
+  background: #888;
+  min-height: 390px;
+}
+body .content .block_9 {
+  background: #999;
+  min-height: 1420px;
+}
+body .content .block_9 .container {
+  background: #aaa;
+}
+body .content .block_9 .container .blc1 {
+  background: #bbb;
+  min-height: 420px;
+}
+body .content .block_9 .container .blc2 {
+  background: #222;
+  min-height: 690px;
+}
+body .content .block_9 .container .blc3 {
+  background: #333;
+  min-height: 310px;
+}
+body .content .block_10 {
+  background: #444;
+  min-height: 1380px;
+}
+body .content .block_10 .container {
+  background: #555;
+}
+body .content .block_10 .container .blc1 {
+  background: #666;
+  min-height: 235px;
+}
+body .content .block_10 .container .blc2 {
+  background: #777;
+  min-height: 345px;
+}
+body .content .block_10 .container .blc3 {
+  background: #888;
+  min-height: 480px;
+}
+body .content .block_10 .container .blc4 {
+  background: #888;
+  min-height: 320px;
+}
+body .content .block_11 {
+  background: #222;
+  min-height: 920px;
+}
+body .content .block_11 .container {
+  background: #333;
+}
+body .content .block_11 .container .blc1 {
+  background: #444;
+  min-height: 610px;
+}
+body .content .block_11 .container .blc2 {
+  background: #555;
+  min-height: 310px;
+}
+body .content .block_12 {
+  background: #222;
+  min-height: 1250px;
+}
+body .content .block_12 .container {
+  background: #333;
+}
+body .content .block_12 .container .blc1 {
+  background: #444;
+  min-height: 480px;
+}
+body .content .block_12 .container .blc2 {
+  background: #555;
+  min-height: 330px;
+}
+body .content .block_12 .container .blc3 {
+  background: #666;
+  min-height: 440px;
+}
+body .content .block_13 {
+  background: #222;
+  min-height: 780px;
+}
+body .content .block_13 .container {
+  background: #333;
+}
+body .content .block_13 .container .blc1 {
+  background: #444;
+  min-height: 400px;
+}
+body .content .block_13 .container .blc2 {
+  background: #555;
+  min-height: 380px;
+}
+body .content .block_14 {
+  background: #222;
+  min-height: 880px;
+}
+body .content .block_14 .container {
+  background: #333;
+}
+body .content .block_14 .container .blc1 {
+  background: #444;
+  min-height: 530px;
+}
+body .content .block_14 .container .blc2 {
+  background: #555;
+  min-height: 350px;
+}
+body .content .block_15 {
+  background: #222;
+  min-height: 1280px;
+}
+body .content .block_15 .container {
+  background: #333;
+}
+body .content .block_15 .container .blc1 {
+  background: #444;
+  min-height: 420px;
+}
+body .content .block_15 .container .blc2 {
+  background: #555;
+  min-height: 420px;
+}
+body .content .block_15 .container .blc3 {
+  background: #666;
+  min-height: 440px;
+}
+body .content .block_16 {
+  background: #777;
+  min-height: 770px;
+}
+body .content .block_16 .container {
+  background: #888;
+}
+body .content .block_16 .container .blc1 {
+  background: #999;
+  min-height: inherit;
+}
+body .content .block_17 {
+  background: #222;
+  min-height: 670px;
+}
+body .content .block_17 .container {
+  background: #333;
+}
+body .content .block_17 .container .blc1 {
+  background: #444;
+  min-height: inherit;
+}
+body .content .block_18 {
+  background: #555;
+  min-height: 950px;
+}
+body .content .block_18 .container {
+  background: #666;
+}
+body .content .block_18 .container .blc1 {
+  background: #777;
+  min-height: inherit;
+}
+body .content .block_19 {
+  background: #888;
+  min-height: 1000px;
+}
+body .content .block_19 .container {
+  background: #999;
+}
+body .content .block_19 .container .blc1 {
+  background: #aaa;
+  min-height: 720px;
+}
+body .content .block_19 .container .blc2 {
+  background: #bbb;
+  min-height: 280px;
+}
+body .content .block_20 {
+  background: #222;
+  min-height: 1210px;
+}
+body .content .block_20 .container {
+  background: #333;
+}
+body .content .block_20 .container .blc1 {
+  background: #444;
+  min-height: 730px;
+}
+body .content .block_20 .container .blc2 {
+  background: #555;
+  min-height: 200px;
+}
+body .content .block_20 .container .blc3 {
+  background: #666;
+  min-height: 280px;
+}
+body footer {
+  background: #777;
+  min-height: 310px;
+}
+body footer .container {
+  background: #888;
+}
+body footer .container .blc1 {
+  background: #999;
+  min-height: inherit;
+}
+body footer .container .blc2 {
+  background: #aaa;
+  min-height: inherit;
+}
+body footer .container .blc3 {
+  background: #bbb;
+  min-height: inherit;
+}
