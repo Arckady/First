@@ -1,3 +1,39 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ol, ul {list-style: none; white-space: nowrap;}
+a {font-size: 0;}
+a:hover {cursor: pointer;}
+@font-face {
+	font-family: Fregat;
+	src: url(../fonts/Fregat_regular.otf);
+}
+@font-face {
+	font-family: Fregat-bold;
+	src: url(../fonts/Fregat_bold.otf);
+}
+@font-face {
+	font-family: Qiber;
+	src: url(../fonts/Qiber-regular.otf);
+}
+html {overflow-x: hidden;}
 body {
 	margin: 0 0;
 	.bg-container {
@@ -22,14 +58,91 @@ header {
 		.blc1 {
 			background: #555;
 			min-height: inherit;
+			.logo {
+				height: 140px;
+				width: 350px;
+				.castle {
+					width: 103px;
+					height: 119px;
+					float: left;
+					margin: 20px 0 0 55px;
+				}
+				.plane {
+					width: 149px;
+					height: 66px;
+					float: right;
+					margin: 14px 30px 0px 0px;
+				}
+				.text {
+					width: 160px;
+					height: 56px;
+					float: right;
+					font: 48px/56px Qiber, sans-serif;
+					margin: -2px 30px 0px 0px;
+				}
+			}
+			.contacts {
+				min-height: 55px;
+				p {
+					font: 16px/18px Fregat, sans-serif;
+					margin: 7px 0px 0px 55px;
+					float: left;
+				}
+				h3 {
+					font: 21px/23px Fregat-bold, sans-serif;
+					margin: 3px 38px 0px 0px;
+					float: right;
+				}
+				a {
+					font: 17px/18px Fregat, sans-serif;
+					margin: 7px 0px 0px 56px;
+					float: left;
+					text-decoration: underline;
+				}
+			}
+			.buttons {
+				.cabinet {
+					img {
+						width: 174px;
+						height: 50px;
+						margin: 3px 0px 0px 40px;
+					}
+				}
+				.get_call {
+					img {
+						width: 174px;
+						height: 50px;
+						margin: 3px 0px 0px -2px;
+					}
+				}
+			}
 		}
 		.blc2 {
 			background: #666;
 			min-height: inherit;
+			padding-top: 60px;
+			margin-left: -19px;
+			font: 19px/38px Fregat-bold, sans-serif;
+			.dotted {
+				li {
+					margin-left: 33px;
+					img {
+						margin-right: 5px;
+					}
+				}
+			}
 		}
 		.blc3 {
 			background: #777;
 			min-height: inherit;
+			.socials {
+				margin: 16px 30px 0px 0px;
+				float: right;
+				li {
+					margin-right: 5px;
+					float: left;
+				}
+			}
 		}
 	}
 }
